@@ -9,7 +9,8 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: 'ES6 常用知识', link: '/fe/es6/' },
       { text: 'TypeScript 基础知识', link: '/fe/typescript/base' },
       { text: '工程化相关知识', link: '/fe/engineering/' },
-      { text: '浏览器相关知识', link: '/fe/browser/' }
+      { text: '浏览器相关知识', link: '/fe/browser/' },
+      { text: '前端缓存相关知识', link: '/fe/cache/' }
     ],
     activeMatch: '^/fe'
   },
@@ -34,15 +35,10 @@ export const nav: DefaultTheme.Config['nav'] = [
         link: '/workflow/vue/'
       },
       { text: 'npm 常用命令', link: '/workflow/node/npm' },
-      // {
-      //   text: '终端相关',
-      //   items: [
       { text: 'Zsh 配置', link: '/workflow/terminal/zsh' },
       { text: '命令行工具', link: '/workflow/terminal/toolkit' },
       { text: 'Vim 命令', link: '/workflow/terminal/vim' },
       { text: 'Shell 命令', link: '/workflow/terminal/shell' },
-      //   ]
-      // },
       { text: 'Git 相关技巧', link: '/workflow/git/' },
       { text: 'Git 命令清单', link: '/workflow/git/command' }
     ],
@@ -53,8 +49,13 @@ export const nav: DefaultTheme.Config['nav'] = [
     items: [
       {
         text: '日常笔记',
-        link: '/notes/',
-        activeMatch: '^/notes'
+        link: '/notes/share/',
+        activeMatch: '^/notes/share'
+      },
+      {
+        text: '学习笔记',
+        link: '/notes/learn/',
+        activeMatch: '^/notes/learn'
       },
       {
         text: '踩坑记录',

@@ -324,7 +324,7 @@ var config_default = defineConfig({
     socialLinks: [{ icon: "github", link: "https://github.com/Yangjia23" }],
     footer: {
       message: "\u5982\u6709\u8F6C\u8F7D\u6216 CV \u7684\u8BF7\u6807\u6CE8\u672C\u7AD9\u539F\u6587\u5730\u5740",
-      copyright: "Copyright \xA9 2019-present maomao"
+      copyright: "Copyright \xA9 2019-present yangjay23"
     },
     darkModeSwitchLabel: "\u5916\u89C2",
     returnToTopLabel: "\u8FD4\u56DE\u9876\u90E8",
