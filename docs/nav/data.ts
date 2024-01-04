@@ -272,6 +272,18 @@ export const NAV_DATA: NavData[] = [
         link: 'https://zh.z-library.se/'
       },
       {
+        icon: 'https://www.dochub.wiki/wp-content/uploads/2023/07/2023072404002284.jpeg',
+        title: 'DocHub 分享优质文档',
+        desc: 'DocHub 分享优质文档；网站致力于将各类优质文档汇聚一处，为用户提供便捷的查阅和搜索服务。比如：飞书文档、腾讯文档、Notion、GitHub等平台资料。',
+        link: 'https://www.dochub.wiki/'
+      },
+      {
+        icon: 'https://feidoc.cn/images/title.png',
+        title: '飞刀网',
+        desc: '完全免费的抖音生态从业者的飞书文档资料库',
+        link: 'https://feidoc.cn/index'
+      },
+      {
         icon: '/icons/es6.svg',
         title: 'ES6 入门教程',
         desc: '阮一峰的网络日志',
