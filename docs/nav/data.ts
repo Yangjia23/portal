@@ -24,9 +24,9 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: '/icons/json-cn.ico',
-        title: 'Json 中文网',
-        desc: 'JSON 在线解析及格式化验证',
-        link: 'https://www.json.cn'
+        title: '全国五级区划查询与下载',
+        desc: '全国五级区划查询与下载，到街道级别',
+        link: 'https://map.ruiduobao.com/'
       }
     ]
   },
